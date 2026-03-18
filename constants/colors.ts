@@ -1,0 +1,58 @@
+const ACCENT = "#6C63FF";
+const ACCENT_SECONDARY = "#FF6B6B";
+
+const colors = {
+  dark: {
+    background: "#0A0A0F",
+    surface: "#13131A",
+    surfaceElevated: "#1C1C27",
+    border: "#2A2A3D",
+    text: "#F0F0FF",
+    textSecondary: "#9090B0",
+    textMuted: "#5A5A78",
+    accent: ACCENT,
+    accentLight: "#8B84FF",
+    accentDark: "#4A42CC",
+    accentSecondary: ACCENT_SECONDARY,
+    userBubble: ACCENT,
+    userBubbleText: "#FFFFFF",
+    aiBubble: "#1C1C27",
+    aiBubbleText: "#F0F0FF",
+    inputBackground: "#1C1C27",
+    inputBorder: "#2A2A3D",
+    headerGradientStart: "#0A0A0F",
+    headerGradientEnd: "#13131A",
+    success: "#4ECDC4",
+    warning: "#FFD93D",
+    error: "#FF6B6B",
+    tabBar: "#0D0D14",
+  },
+  light: {
+    background: "#F5F5FF",
+    surface: "#FFFFFF",
+    surfaceElevated: "#EDEDFF",
+    border: "#E0E0F0",
+    text: "#1A1A2E",
+    textSecondary: "#6060A0",
+    textMuted: "#ABABCC",
+    accent: ACCENT,
+    accentLight: "#8B84FF",
+    accentDark: "#4A42CC",
+    accentSecondary: ACCENT_SECONDARY,
+    userBubble: ACCENT,
+    userBubbleText: "#FFFFFF",
+    aiBubble: "#EDEDFF",
+    aiBubbleText: "#1A1A2E",
+    inputBackground: "#FFFFFF",
+    inputBorder: "#E0E0F0",
+    headerGradientStart: "#F5F5FF",
+    headerGradientEnd: "#EDEDFF",
+    success: "#26A69A",
+    warning: "#FFC107",
+    error: "#EF5350",
+    tabBar: "#FFFFFF",
+  },
+};
+
+export type ColorTheme = typeof colors.dark;
+export default colors;
